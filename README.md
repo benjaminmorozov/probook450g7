@@ -8,9 +8,11 @@ This repo contains two files:
 
  I do NOT promise you any performance gains from using any of these configs. DO NOT contact me for help, I don't and will NOT take any responsibilty for your screwups caused by misuse of any of these configs.
 
+### Remedies
+Repasting has proven to be really helpful at minimizing throttling issues over the years.
+
 ### Discoveries
  - the cpu does a thermal shutdown at 103°C, so I set the throttlestop max to 100°C. It is completely capable of running at these temps long-term - proof: my laptop has been running off these configs for 4years and I'm still counting.
- - the gpu is completely useless, I'm not even joking. It's an MX150 and I've never seen a worse chip to this date ever. It's a DirectX 12_1 chip, so just say goodbye to modern games (FIFA 22+). Some overclocking up to +150MHz is possible but the chip is locked otherwise. I've seen it jump to even higher clocks than possible manually, but I have no idea what it means. It's better to just leave the GPU be, it can do cool stuff on its own, but if it's still not enough, try this, it will work: https://www.alza.sk/pcie-riser-1-to-16-card-6-pin-molex-sata-ver-009-priama-d6446231.htm
-  EDIT: no it won't, this is for a pc m2 slot.
- - the igpu is pretty fine, just add some ram and dedicate at least 1GB to the igpu in the BIOS and you won't even notice that it's an igpu.
+ - the gpu is an MX150. It's a DirectX 12_1 chip, so it doesn't have full DX12 support (FIFA 22+). Some overclocking up to +150MHz is possible but the chip is locked otherwise. I've seen it jump to higher clocks than possible manually though. It's better to just leave the GPU be. I did research plugging an external GPU into the internal m2 slot but it is apparently unsupported. (https://www.alza.sk/pcie-riser-1-to-16-card-6-pin-molex-sata-ver-009-priama-d6446231.htm)
+ - the igpu is pretty fine, just add some ram and dedicate at least 1GB VRAM to it in the BIOS.
  - the laptop won't ever support anything below Windows Vista, it's due to the AHCI/IDE legacy settings in BIOS that just don't do anything when you switch between them.

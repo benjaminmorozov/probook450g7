@@ -1,7 +1,7 @@
-## HP Probook 450 G7 (Intel i5-10210U) and some data I discovered
-
+## HP Probook 450 G7 (Intel i5-10210U, MX150)
+A dump of files and information regarding HP Probook 450 G7 in the i5-10210U/MX150/noFingerprintReader configuration.
 ### ThrottleStop
-Honestly just a personal config list that helped me get some use from this useless junk of a laptop. I am no expert in overclocking - there is DEFINITELY a better way to do all of this but I think it's a pretty amazing attempt nevertheless.
+A personal config list that helped me get some use from this useless junk of a laptop. I am no expert in overclocking - there is DEFINITELY a better way to do all of this but I think it's a pretty amazing attempt nevertheless.
 This repo contains two files:
  - ThrottleStopSchool.ini - an efficient config that makes games and other processing run a tad bit faster [the HP throttling is really extreme and basically hinders any performance when not using ThrottleStop]
  - ThrottleStop.ini - an absolute behemoth of a config that turns the cpu in to a beast but ⚠️ **WILL DESTROY YOUR BATTERY IN A YEAR** ⚠️ [when plugged into the wall, the laptop still uses the battery to power its turbo overclock]
@@ -11,8 +11,13 @@ This repo contains two files:
 ### Remedies
 Repasting has proven to be really helpful at minimizing throttling issues over the years.
 
+### Linux compatibility
+Fully compatible, including fn keys, sidecar (both wifi and bluetooth), camera+microphone and dgpu.
+Tested on: Ubuntu Server 24.04 LTS
+
 ### Hackintosh compatibility
 Incompatible dgpu, webcam, SD reader, microphone and sidecar.
+Tested on: macOS Sonoma
 
 ### Discoveries
  - the cpu does a thermal shutdown at 103°C, so I set the throttlestop max to 100°C. It is completely capable of running at these temps long-term - proof: my laptop has been running off these configs for 4years and I'm still counting.

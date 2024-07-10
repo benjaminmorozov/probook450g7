@@ -1,19 +1,19 @@
 ## HP Probook 450 G7 (Intel i5-10210U, MX150)
 A dump of files and information regarding HP Probook 450 G7 in the i5-10210U/MX150/noFingerprintReader configuration.
 ### ThrottleStop
-A personal config list that helped me get some use from this useless junk of a laptop. I am no expert in overclocking - there is DEFINITELY a better way to do all of this but I think it's a pretty amazing attempt nevertheless.
+A personal config list that helped me get some use from this laptop. I am no expert in overclocking - there is DEFINITELY a better way to do all of this but I think it's a pretty amazing attempt nevertheless.
 This repo contains two files:
  - ThrottleStopSchool.ini - an efficient config that makes games and other processing run a tad bit faster [the HP throttling is really extreme and basically hinders any performance when not using ThrottleStop]
  - ThrottleStop.ini - an absolute behemoth of a config that turns the cpu in to a beast but ⚠️ **WILL DESTROY YOUR BATTERY IN A YEAR** ⚠️ [when plugged into the wall, the laptop still uses the battery to power its turbo overclock]
 
  I do NOT promise you any performance gains from using any of these configs. DO NOT contact me for help, I don't and will NOT take any responsibilty for your screwups caused by misuse of any of these configs.
 
-### Remedies
-Repasting has proven to be really helpful at minimizing throttling issues over the years.
+### Repasting
+Repasting has proven to be really helpful at minimizing throttling issues over the years. I can confirm ARCTIC MX-4 is fully compatible with this laptop.
 
 ### Linux compatibility
 Fully compatible, including fn keys, sidecar (both wifi and bluetooth), camera+microphone and dgpu.
-Tested on: Ubuntu Server 24.04 LTS
+Tested on: Ubuntu Server 24.04 LTS, Ubuntu 23.04
 
 ### Hackintosh compatibility
 Incompatible dgpu, webcam, SD reader, microphone and sidecar.
